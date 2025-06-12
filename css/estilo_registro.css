@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../imagenes/fondoA.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+/* Títulos centrados */
+h1, h2 {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* Imagen centrada y más grande */
+.centrada {
+    display: block;
+    margin: 30px auto 20px auto;
+    width: 200px;
+    max-width: 90%;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease-in-out;
+}
+
+.centrada:hover {
+    transform: scale(1.05);
+}
+
+/* Contenedor del formulario */
+form {
+    background-color: #fdfcf8e6;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2),
+                inset 0 0 10px rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+/* Título interno del formulario */
+form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Etiquetas */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Botón de envío */
+input[type="submit"] {
+    background-color: #343a40;
+    color: #f0e68c;
+    padding: 12px 20px;
+    border: 2px solid #f0e68c;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    form {
+        padding: 20px;
+        margin: 20px 10px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    input[type="submit"] {
+        font-size: 14px;
+    }
+}

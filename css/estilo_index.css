@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../imagenes/fondoA.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.centrada {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    height: auto;
+    border: 5px solid black;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 span:nth-child(1)  { color: red; }
+h1 span:nth-child(2)  { color: orange; }
+h1 span:nth-child(3)  { color: gold; }
+h1 span:nth-child(4)  { color: green; }
+h1 span:nth-child(5)  { color: blue; }
+h1 span:nth-child(6)  { color: indigo; }
+h1 span:nth-child(7)  { color: violet; }
+h1 span:nth-child(8)  { color: red; }
+h1 span:nth-child(9)  { color: orange; }
+h1 span:nth-child(10) { color: gold; }
+h1 span:nth-child(11) { color: green; }
+h1 span:nth-child(12) { color: blue; }
+h1 span:nth-child(13) { color: indigo; }
+h1 span:nth-child(14) { color: violet; }
+h1 span:nth-child(15) { color: red; }
+h1 span:nth-child(16) { color: orange; }
+h1 span:nth-child(17) { color: gold; }
+
+h2 {
+    color: #d4a017;
+}
+
+p:first-of-type {
+    text-align: center;
+}
+
+.contenedor {
+    background: rgba(253, 252, 248, 0.85);
+    padding: 30px 5vw;
+    max-width: 750px;
+    margin: 60px auto;
+    border-radius: 16px;
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.15),
+        inset 0 0 10px rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    transition: background 0.3s ease;
+}
+
+.btn-registro {
+    background-color: #343a40;
+    color: #f0e68c;
+    border: 2px solid #f0e68c;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-registro:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+.btn-login {
+    background-color: #1e1e2f;
+    color: #89cff0;
+    border: 2px solid #89cff0;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-login:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+/* === Estilos modal login=== */
+.modal-content {
+    background: rgba(29, 29, 44, 0.95); /* tono oscuro translúcido */
+    font-family: Arial, sans-serif;
+    border-radius: 16px;
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.4),
+        inset 0 0 15px rgba(40, 116, 166, 0.7); /* azul tenue interno */
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(40, 116, 166, 0.8); /* borde azul */
+    color: #cce6ff; /* texto claro para buen contraste */
+}
+
+.modal-header {
+    background-color: #1e1e2f;
+    color: #89cff0;
+    border-bottom: 2px solid #89cff0;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.modal-body label {
+    color: #89cff0;
+}
+
+.btn-modal-login {
+    background-color: #1e1e2f;
+    color: #89cff0;
+    border: 2px solid #89cff0;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-modal-login:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+@media (max-width: 600px) {
+    .contenedor {
+        padding: 25px 20px;
+        margin: 30px 10px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.95rem;
+    }
+}

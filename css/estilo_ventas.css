@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../imagenes/fondoA.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    background: rgba(253, 252, 248, 0.85);
+    padding: 30px 5vw;
+    max-width: 750px;
+    margin: 60px auto;
+    border-radius: 16px;
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.15),
+        inset 0 0 10px rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+/* Título principal */
+.titulo-principal {
+    font-size: 2.2rem;
+    color: #5b3c11; /* marrón suave */
+    margin-bottom: 15px;
+}
+
+/* Subtítulo */
+.subtitulo {
+    font-size: 1.2rem;
+    color: #d4a017;
+    font-style: italic;
+}
+
+/* Título de cada producto */
+.titulo-producto {
+    font-family: 'Georgia', serif;
+    font-size: 1.3rem;
+    color: #3366cc; /* azul que combina con fondo */
+}
+
+/* Imagen de producto */
+.img-producto {
+    display: block;
+    margin: 15px auto;
+    max-width: 90%;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 12px;
+}
+
+/* Precio debajo de la imagen */
+.precio-producto {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #222;
+}
+
+/* Botón base */
+.btn-agregar {
+    font-family: 'Verdana', sans-serif;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    font-size: 1rem;
+}
+
+/* Botón 1 */
+.btn1 {
+    background-color: #1e1e2f;
+    color: #f0e68c;
+    border-color: #f0e68c;
+}
+.btn1:hover {
+    background-color: #f0e68c;
+    color: #1e1e2f;
+}
+
+/* Botón 2 */
+.btn2 {
+    background-color: #4CAF50;
+    color: white;
+    border-color: white;
+}
+.btn2:hover {
+    background-color: white;
+    color: #4CAF50;
+}
+
+/* Botón 3 */
+.btn3 {
+    background-color: #2196F3;
+    color: white;
+    border-color: white;
+}
+.btn3:hover {
+    background-color: white;
+    color: #2196F3;
+}
+
+/* Botón 4 */
+.btn4 {
+    background-color: #ff9800;
+    color: white;
+    border-color: white;
+}
+.btn4:hover {
+    background-color: white;
+    color: #ff9800;
+}
+
+/* Botón 5 */
+.btn5 {
+    background-color: #9c27b0;
+    color: white;
+    border-color: white;
+}
+.btn5:hover {
+    background-color: white;
+    color: #9c27b0;
+}
+
+/* Párrafo final editable */
+.parrafo-final {
+    font-size: 1.1rem;
+    color: #333;
+    padding: 15px;
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .contenedor {
+        padding: 25px 20px;
+        margin: 30px 10px;
+    }
+
+    .titulo-principal {
+        font-size: 1.8rem;
+    }
+
+    .titulo-producto {
+        font-size: 1.1rem;
+    }
+
+    .parrafo-final {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario de registro</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap5.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo_registro.css">
+</head>
+<body>
+
+	<h1>Bienvenidos a Programación Web</h1>
+	<h2>Formulario de Registro de Usuario</h2>
+
+	<img src="imagenes/Usuarios.png" class="centrada" alt="Imagen de usuario">
+
+	<form action="pagina_ventas.html">
+		<h2>Formulario de Inscripción</h2>
+
+		<label for="nombres">Escriba sus nombres</label>
+		<input type="text" name="nombres" id="nombres" required>
+
+		<label for="apellidos">Escriba sus apellidos</label>
+		<input type="text" name="apellidos" id="apellidos" required>
+
+		<label for="nacimiento">Fecha de nacimiento</label>
+		<input type="date" name="nacimiento" id="nacimiento" required>
+
+		<label for="id_usuario">Digite su ID</label>
+		<input type="number" name="id_usuario" id="id_usuario" required>
+
+		<label for="foto">Anexe su foto</label>
+		<input type="file" name="foto" id="foto" required>
+
+		<input type="submit" value="Registrarse">
+	</form>
+
+</body>
+</html>
